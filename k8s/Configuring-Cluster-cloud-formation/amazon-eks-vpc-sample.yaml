@@ -6,22 +6,22 @@ Parameters:
 
   VpcBlock:
     Type: String
-    Default: 10.0.0.0/16
+    Default: 192.168.0.0/16
     Description: The CIDR range for the VPC. This should be a valid private (RFC 1918) CIDR range.
 
   Subnet01Block:
     Type: String
-    Default: 10.0.12.0/24
+    Default: 192.168.64.0/18
     Description: CidrBlock for subnet 01 within the VPC
 
   Subnet02Block:
     Type: String
-    Default: 10.0.22.0/24
+    Default: 192.168.128.0/18
     Description: CidrBlock for subnet 02 within the VPC
 
   Subnet03Block:
     Type: String
-    Default: 10.0.12.0/24
+    Default: 192.168.192.0/18
     Description: CidrBlock for subnet 03 within the VPC
 
 Metadata:
